@@ -1,0 +1,24 @@
+# גרסאות מדויקות שנבדקו עם המערכת (Python 3.12).
+# כדי לשדרג: משנים גרסה, מריצים pytest ואת eval/run_eval.py, ורק אז שומרים.
+
+# שרת ו-API
+fastapi==0.165.0
+uvicorn[standard]==0.54.0
+
+# קריאת קבצי Word
+python-docx==1.2.0
+
+# מודל שפה ואמבדינג
+openai==3.58.0
+
+# חיפוש
+chromadb==1.5.9
+rank-bm25==0.2.2
+
+# הגדרות
+pydantic==2.14.4
+pydantic-settings==2.16.3
+
+# בדיקות
+pytest==9.2.0
+httpx==0.28.1

@@ -1,0 +1,13 @@
+.env
+.claude/settings.local.json
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+
+# קבצים שהמערכת מייצרת בעצמה (אפשר לבנות אותם מחדש)
+data/processed/
+data/index/
+
+# קבצים זמניים של Word, כשמסמך פתוח
+~$*
